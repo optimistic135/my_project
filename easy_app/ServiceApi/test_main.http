@@ -1,0 +1,14 @@
+POST http://192.168.10.225:8000/user/register
+Content-Type: application/json
+
+{
+  "username": "lisi",
+  "password": "123456"
+}
+
+###
+GET http://192.168.10.103:8000/nihaoapi
+Accept: application/json
+
+###
+
