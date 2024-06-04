@@ -1,0 +1,111 @@
+POST http://localhost:5000/judge
+Content-Type: application/json
+
+[
+  {
+    "chinese": "vt. 取回,挽回, 检索",
+    "english": "as",
+    "id": 4094
+  },
+  {
+    "chinese": "adv.同样地像prep.当做conj.当...的时候像...一样因为",
+    "english": "as",
+    "id": 289
+  },
+  {
+    "chinese": "vt.记得想起记住",
+    "english": "kk",
+    "id": 4011
+  },
+  {
+    "chinese": "vt.实现认识到了解意识到净得",
+    "english": "oo",
+    "id": 3907
+  },
+  {
+    "chinese": "n.试验,假设a.试验性,暂时的",
+    "english": "nn",
+    "id": 4929
+  }
+]
+
+###
+
+###
+POST http://localhost:5000/exer
+Content-Type: application/json
+
+{
+  "num": 2
+}
+
+###
+POST http://localhost:5000/detele
+Content-Type: application/json
+
+{
+  "username": "lisi",
+  "English": "hello"
+}
+
+###
+
+
+POST http://localhost:5000/mes
+Content-Type: application/json
+
+{
+  "username": "lisi"
+}
+
+###
+
+###添加单词
+POST http://localhost:5000/addword
+Content-Type: application/json
+
+{
+  "username": "lisi",
+  "word": "right",
+  "chinese": "正确的"
+}
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+  "username": "lisi",
+  "password": "123456"
+}
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+  "username": "lisi",
+  "password": 123456
+}
+
+###
+POST http://localhost:5000/translate
+Content-Type: application/json
+
+{
+  "word": "你好"
+}
+
+###
+GET http://localhost:5000/nihaoapi
+Accept: application/json
+
+###
+POST http://localhost:5000/nihaoapi
+Content-Type: application/json
+
+{
+  "username": "周孝勇"
+}
+
+###
